@@ -90,4 +90,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/bar1"
         app:layout_constraintEnd_toEndOf="@+id/bar1"
         app:layout_constraintStart_toStartOf="@+id/bar1" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="303dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="355dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

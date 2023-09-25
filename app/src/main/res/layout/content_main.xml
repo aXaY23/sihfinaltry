@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <Button
-        android:id="@+id/Rec"
+        android:id="@+id/rec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
@@ -57,12 +57,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="352dp"
-        android:layout_height="137dp"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:
         android:text="INCREASE VOLUME TILL YOU START TO HEAR AND PRESS NEXT"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/seekBar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544"
-        tools:layout_editor_absoluteX="29dp" />
+        app:layout_constraintVertical_bias="0.58"
+        tools:layout_editor_absoluteX="35dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

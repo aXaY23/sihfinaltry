@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         val play = findViewById<Button>(R.id.play)
         val volumeSeekBar = findViewById<SeekBar>(R.id.seekBar)
-        val Rec = findViewById<Button>(R.id.Rec)
+        val rec = findViewById<Button>(R.id.rec)
 
         play.setOnClickListener {
             if (pause) {
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         })
 
-        Rec.setOnClickListener{
+        rec.setOnClickListener{
             val Data: Double  // @TuhinChatterjee volume ka data store karna array form me. its supposed to be arry for data collection //
 
         }
